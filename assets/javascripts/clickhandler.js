@@ -14,7 +14,7 @@ blueButton.addEventListener("click", function () {
  * Add the JS for the pink button
  *
  */
-const pinkButton = document.querySelector("#gray-button");
+const pinkButton = document.querySelector("#pink-button");
 pinkButton.addEventListener("click", function () {
   colorBox.className = "pink";
 });
