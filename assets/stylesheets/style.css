@@ -2,13 +2,13 @@
   width: 200px;
   height: 200px;
 }
-#gray-button {
+.gray {
   background: gray;
 }
-#blue-button {
+.blue {
   background: rgb(67, 111, 255);
 }
-#pink-button {
+.pink {
   background: pink;
 }
 /* TODO 1
