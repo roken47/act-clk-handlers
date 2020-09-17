@@ -22,6 +22,12 @@ let count = 0;
 const countspan = document.querySelector("#countspan");
 const counterButton = document.querySelector("#counter-button");
 counterButton.addEventListener("click", function () {
+  count++;
+  let newCountSpan = Number(countspan.innerHTML) + count;
+  //   count += Number(countspan.innerHTML);
+  document.getElementById("countspan").innerHTML = count;
+  console.log(newCountSpan);
+  console.log(count);
   /* TODO 2
    *
    * Fill in this function so that it increments
