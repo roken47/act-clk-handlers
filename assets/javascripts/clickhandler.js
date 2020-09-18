@@ -38,7 +38,12 @@ counterButton.addEventListener("click", function () {
 });
 const evenOrOddButton = document.querySelector("#even-or-odd-button");
 evenOrOddButton.addEventListener("click", function () {
-  let x;
+  countspan.innerHTML = count;
+  if (count % 2 === 0) {
+    window.alert("Number is Even");
+  } else {
+    window.alert("Number is Odd");
+  }
   /* TODO 3
    *
    * Fill in this function so that it shows an
